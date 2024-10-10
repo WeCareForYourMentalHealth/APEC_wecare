@@ -1,0 +1,543 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: #f6f4f3;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    line-height: 1.6;
+    color: #31241E;
+    flex-direction: column;
+    font-size: 24px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    font-size: large;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(225,225,225,225);
+    font-family: 'Cormorant Garamond', serif;
+    padding: 2vh;
+}
+
+.imgjourney{
+margin: 2rem 5rem 2rem 5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: rgb(158, 171, 242);
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) 
+    .navbar {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 10px 20px;  
+    }
+h1 {
+    color: black;
+    font: weight: 100;
+    font-style: normal;
+    font-display: swap;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+h2 {
+    color: black;
+    padding: 3em 3em 0;
+    margin: 20px 0;
+    font: weight 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+h3 {
+    color: #181C14;
+    font-weight: 700;
+    font-family: 'Cormorant Garamond', serif;
+    font-display: swap;
+    margin: 20px 0;
+}
+
+
+p {
+    font-size: 16pt;
+    line-height: 28px;
+}
+
+ul {
+    font-size: 16pt;
+    line-height: 28px;
+}
+
+.container1{
+    width: 1rem;
+    height: 100vh;
+    display: contents;
+}
+.OJ{
+    height: 70vh;
+    display: flex;
+    background-size: 175vh;
+    align-items: flex-end;
+    padding: 0 0 5rem 5rem;
+    font-size: 3rem;
+    background-image: url(ourjourneypic.png);
+    margin: 2rem 5rem;
+}
+
+
+
+.tcontent{
+    font-size: medium;
+    text-align: justify;
+    width: 50vw;
+    align-content: start;
+    padding: 1rem;
+}
+.div2{
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-top: 1px solid rgba(225,225,225,225);
+    background-color: white;
+}
+
+tr{
+    margin:  2rem;
+}
+
+.table1{
+    margin: 0 5rem
+}
+.footer{
+    margin: 0 5rem 2rem 5rem;
+}
+/* 
+.div2{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    height: 50%;
+    width: 50%;
+    border-radius: 20px;
+} */
+
+/*Streaming*/
+
+.Pic1{
+    height: 55vh;
+    width: 100vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 5rem 5rem;
+    font-size: 3rem;
+    background-image: url(streaming.png);
+    background-size: 100vh;
+    margin: 2rem 5rem;
+}
+
+.Pic3{
+    height: 55vh;
+    width: 100vh;
+    /* display: flex; */
+    /* align-items: flex-end; */
+    padding: 0 0 5rem 5rem;
+    /* font-size: 3rem; */
+    position: relative;
+    background-size: 100vh;
+    background-image: url(gaming.webp);
+    margin: 10rem 5rem 0 5rem;
+}
+
+.Pic4{
+    height: 55vh;
+        width: 100vh;
+        /* display: flex; */
+        /* align-items: flex-end; */
+        padding: 0 0 5rem 5rem;
+        background-size: 100vh;
+        /* font-size: 3rem; */
+        background-image: url(musicvideo.jpg);
+        margin: 5rem 5rem 0 5rem;
+    }
+
+    .Pic5{
+        height: 55vh;
+            width: 100vh;
+            /* display: flex; */
+            /* align-items: flex-end; */
+            padding: 0 0 5rem 5rem;
+            background-size: 100vh;
+            /* font-size: 3rem; */
+            background-image: url(webcast.jpg);
+            margin: 5rem 5rem 0 5rem;
+        }
+
+        .Pic6{
+            height: 55vh;
+                width: 100vh;
+                /* display: flex; */
+                /* align-items: flex-end; */
+                padding: 0 0 5rem 5rem;
+                background-size: 98vh;
+                /* font-size: 3rem; */
+                background-image: url(podcast.jpg);
+                margin: 5rem 5rem 0 5rem;
+            }
+
+            .Pic7{
+                height: 55vh;
+                    width: 100vh;
+                    /* display: flex; */
+                    /* align-items: flex-end; */
+                    background-size: 100vh;
+                    padding: 0 0 5rem 5rem;
+                    /* font-size: 3rem; */
+                    background-image: url(personalstories.jpg);
+                    margin: 5rem 5rem 0 5rem;
+                }
+
+            .Pic8{
+                    height: 55vh;
+                        width: 100vh;
+                        /* display: flex; */
+                        /* align-items: flex-end; */
+                        padding: 0 0 5rem 5rem;
+                        background-size: 93vh;
+                        /* font-size: 3rem; */
+                        background-image: url(q&a.avif);
+                        margin: 6rem 5rem 0 5rem;
+                    }
+
+             .Pic9{
+                    height: 55vh;
+                        width: 100vh;
+                            /* display: flex; */
+                            /* align-items: flex-end; */
+                         padding: 0 0 5rem 5rem;
+                         background-size: 90vh;
+                            /* font-size: 3rem; */
+                            background-image: url(twitch.avif);
+                            margin: 5rem 5rem 0 5rem;
+                        }
+
+                     .Pic10{
+                            height: 55vh;
+                                width: 100vh;
+                                /* display: flex; */
+                                /* align-items: flex-end; */
+                                padding: 0 0 5rem 5rem;
+                                background-size: 87vh;
+                                /* font-size: 3rem; */
+                                background-image: url(facebook.webp);
+                                margin: 5rem 5rem 0 5rem;
+                            }
+
+                    .Pic11{
+                                height: 55vh;
+                                    width: 100vh;
+                                    /* display: flex; */
+                                    /* align-items: flex-end; */
+                                    padding: 0 0 5rem 5rem;
+                                    background-size: 92vh;
+                                    /* font-size: 3rem; */
+                                    background-image: url(tiktoklive.png);
+                                    margin: 5rem 5rem 0 5rem;
+                                }
+
+.tcontent2{
+    font-size: medium;
+    text-align: justify;
+    width: 50vw;
+    padding: 1rem;
+    align-content: end;
+}
+
+.table2{
+    margin: 0 30rem;
+}
+
+/*aboutus*/
+
+.Pic2{
+    height: 90vh;
+    width: 85vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 5rem 5rem;
+    font-size: 3rem;
+    background-image: url(images/background.webp);
+    margin: 2rem 5rem;
+}
+
+.Picaboutus{
+    height: 70vh;
+    width: 85vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 5rem 5rem;
+    font-size: 3rem;
+    background-size: 85vh;
+    background-image: url(aboutuspic.png);
+    margin: 2rem 1rem 0 5rem;
+}
+
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    background-color: #f6f4f3;
+    padding: 10px;
+    display: flex;
+}
+
+.grid-container-reverse{
+    display: grid;
+    gap: 1px;
+    background-color: #f6f4f3;
+    padding: 10px;
+    display: flex;
+}
+
+
+.texttitle{
+    width: 80vh;
+    text-align: start;
+    padding: 2rem 0 0 0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.reverseText{
+    width: 50%;
+    text-align: start;
+    padding: 2rem 0 0 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.reverseTextContainer{
+    width: 50%;
+    text-align: start;
+    padding: 3rem 0 0 2rem;
+    text-align: justify;
+  
+}
+
+.TextContainer{
+    width: 50%;
+    /* text-align: start; */
+    padding: 0 2rem 0 0;
+    text-align: justify;
+}
+
+.VA{
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+}
+
+.Demographicimg{
+    height: 49vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 5rem 5rem;
+    background-size: 195vh;
+    font-size: 3rem;
+    background-image: url(demographic.png);
+    margin: 2rem 5rem;
+}
+
+.Demographicimg1{
+    width: 60%;
+    text-align: start;
+    padding: 2rem 0 0 4rem;
+    text-align: justify;
+}
+
+.Demographicimg2{
+    width: 40%;
+    text-align: start;
+    padding: 2rem 5rem 0 2rem;
+    text-align: justify;
+  
+}
+
+.Demographicimg1img1{
+    background-size: 115vh 60vh;
+    width: 100%;
+    background-image: url(socioeconomic.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    
+}
+
+.Demographicimg2img2{
+    background-size: 55vh;
+    background-image: url(strand.png);
+    height: 60vh;
+}
+
+.DemographicText{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.BAS{
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+}
+
+.containerBAS{
+    margin: 0 6rem 0 4rem;
+}
+
+.grid-container-Conatact{
+    display: grid;
+    gap: 10px;
+    background-color: #f6f4f3;
+    padding: 10px;
+    display: flex;
+}
+
+.formcontact{
+    height: 55vh;
+        width: 100vh;
+        /* display: flex; */
+        /* align-items: flex-end; */
+        padding: 0 0 5rem 5rem;
+        /* font-size: 3rem; */
+        margin: 5rem 5rem 0 0;
+    }
+
+    .form{
+        width: -webkit-fill-available;
+        background-color: #e0dfd8;
+    }
+      
+
+    .FomrName{
+        height: 8vh;
+        border: none;
+        padding: 1rem;
+        font-size: medium;
+        font-weight: 700;
+        margin: 0.5rem 0;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    
+    .Fomremail{
+        height: 8vh;
+        border: none;
+        padding: 1rem;
+        font-size: medium;
+        font-weight: 700;
+        margin: 0.5rem 0;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    
+    .Fomrsubject{
+        height: 8vh;
+        border: none;
+        padding: 1rem;
+        font-size: medium;
+        font-weight: 700;
+        margin: 0.5rem 0;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+
+      .Fomrmessage{
+        height: 20vh;
+        border: none;
+        padding: 1rem 0 6rem 1rem;
+        font-size: medium;
+        font-weight: 700;
+        font-family: 'Cormorant Garamond', serif;
+    }
+
+    .reverseTextContact{
+    
+        width: 50%;
+        text-align: start;
+        padding: 2rem 0 0.5rem 0;
+        font-size: xx-large;
+        font-weight: bold;
+    
+      
+    }
+
+    .child1contact{
+        font-size: large;
+        font-style: italic;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+
+    .child2contact{
+        margin: 1rem 0 0 0;
+        font-size: smaller;
+    }
+
+    .child3contact{
+        font-size: smaller;
+        margin: 1rem 0 0 0;
+        font-weight: bold;
+    }
+
+    .child4contact{
+        font-size: large;
+        font-style: italic;
+        font-weight: bolder;
+        font-family: sans-serif;
+    
+    }
+
+    .btncontact{
+        float: inline-end;
+        margin: 1rem 0 0 0;
+        width: 25vh;
+        height: 6vh;
+        border-radius: 10rem;
+        background-color: #2e266d;
+        color: white;
+        font-size: smaller;
+        font-weight: bold;
+    }
+
+ 

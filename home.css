@@ -1,0 +1,22 @@
+
+
+.container{
+    background: #ede9e7;
+    align-content: center;
+    height: 100vh;
+    color: #514e4b
+}
+
+.title1{
+font-size: 8rem;
+line-height: 17vh;
+font-family: 'Cormorant Garamond', serif;
+font-weight: 10;
+}
+
+.tiitl2{
+font-size: 5vh;
+font-family: 'Noto Sans', sans-serif;
+letter-spacing: 3vh;
+}
+

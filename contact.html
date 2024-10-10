@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexcs.css" />
+    <title>Document</title>
+    <script src="script.js" type="text/javascript" ></script> 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+       emailjs.init("u1uehG0Muqxx70lKu")
+    </script>
+
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <img src="wecare.png" width="250" height="85">
+      <ul class="nav-links">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="index.html">OUR JOURNEY</a></li>
+        <li><a href="Streaming.html">STREAMING</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="grid-container-Conatact">
+      <div class="reverseTextContainer">
+
+        <div class="reverseTextContact">Contact</div>
+
+        <p class="child1contact">Please fill out the form to send us an email.</p>
+        <div class="child2contact"> 
+            We would really appreciate it if you could provide feedback on our website, as well as any recommendations and opinions about our research. Thank you!
+
+        </div>
+        <p class="child3contact">E-mail:</p>
+        <p class="child4contact">apecwecare@gmail.com</p>
+      </div>
+
+      <div class="formcontact">
+        <input type="text" id="name" class="form FomrName" placeholder="Name" required></input><br>
+        <input type="email" id="email" class="form Fomremail" placeholder="E-mail" required><br>
+        <input type="text" id="Subject" class="form Fomrsubject" placeholder="Subject" required><br>
+        <input type="text" id="message" class="form Fomrmessage" placeholder="Message" required><br>
+        <button onclick="SendMail()" class="btncontact">SUBMIT</button>
+     </div>
+
+    </div>
+  </body>
+</html>
